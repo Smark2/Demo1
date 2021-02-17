@@ -2,7 +2,9 @@ Import-Module $PSScriptRoot\Helpers.ps1
 
 function Test {
 
+    Write-Host 'Calling DoStuff'
     DoStuff
+    Write-Host 'finished'
 
 }
 
